@@ -1,0 +1,145 @@
+body { 
+    font-family: Arial, sans-serif; background-image: url('/demonslayerphoto.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        color: #ffffff;
+}
+header {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    color: #f47c7c;
+}
+.watch-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff4f69;
+    color: white;
+    border: none;
+    border-radius: px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.watch-button:hover {
+    background-color: #e63950;
+}
+.icons span {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.icons span {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.icons span:hover {
+    transform: scale(1.2);
+}
+.logo {
+    font-family: 'Orbitron',sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffcc00;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.content-overlay {
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+.logo {
+    font-family: 'Orbitron',sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #ffcc00;
+    text-shadow: 2px 2px 8px #000;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px#ff6600,0 0 20px #ff3300;
+}
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 3px #000;
+}
+.icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.5);
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #000;
+}
+.icons span:hover {
+    transform: scale(1.2);
+    color: #ffcc00;
+}
+#creator h6 {
+    font-size: 16px;
+    color: #aaaaaa;
+    margin-bottom: 6px;
+    font-weight: normal;
+}
+.creator-text {
+    font-size: 14px;
+    color: #888888;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.creator-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 15px;
+    border-radius: 10px;
+}
+.creator-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    border: 2px solid #ff4f69;
+}
+.creator-info h6 {
+    font-size: 16px;
+    color: #aaaaaa;
+    margin: 0;
+    font-weight: normal;
+}
+.creator-text {
+    font-size: 13px;
+    color: #888888;
+    font-style: italic;
+    margin: 4px 0;
+    line-height: 1.4;
+}
+.insta-link:hover {
+    color: #ffcc00;
+}
+.fade-in {
+   opacity: 0; 
+   transform: translateY(20px);
+   animation: fadeIn 1s ease-out forwards;
+   animation-delay: 0.3s;
+}
+@keyframes fadeIn { to
+{
+    opacity: 1;
+    transform: translateY(0);
+}
+}
